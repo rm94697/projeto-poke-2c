@@ -7,6 +7,8 @@ return (
 <Routes>
 
 <Route path = "/" element={<Home/>} />
+<Route path = "pokeflex" element={<PokeFlex/>} />
+<Route path = "pokegrid" element={<PokeGrid/>} />
 
 </Routes>
 
