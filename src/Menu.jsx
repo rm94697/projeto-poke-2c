@@ -7,11 +7,10 @@ const Menu = () => {
         <Navbar.Brand href="/home" className="fw-bold">
           PokeApp
         </Navbar.Brand>
-
         <Navbar.Toggle aria-controls="main-navbar" />
-
         <Navbar.Collapse id="main-navbar">
           <Nav className="ms-auto">
+            <Nav.Link href= '/viacep'>ViaCep</Nav.Link>
             <Nav.Link href="/home" className="text-white">
               Home
             </Nav.Link>
